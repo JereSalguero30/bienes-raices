@@ -1,0 +1,25 @@
+{
+    "name": "usuario/bienesraices",
+    "autoload": {
+        "psr-4": {
+            "Usuario\\Bienesraices\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JereS",
+            "email": "jere.salguero10@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^3.6",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controller"
+        }
+    }
+}
